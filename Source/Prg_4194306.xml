@@ -40,15 +40,15 @@
           <Sort>
             <CLS val="A"/>
           </Sort>
-          <ForceRecordDelete DEL="N"/>
-          <EndTaskCondition val="N"/>
+          <ForceRecordDelete DEL="Y"/>
+          <EndTaskCondition val="Y"/>
           <EvaluateEndCondition val="B"/>
           <InitialMode val="M"/>
           <Locate Direction="A"/>
           <Range Direction="A"/>
           <VarRange/>
           <TaskProperties>
-            <SelectionTable val="N"/>
+            <SelectionTable val="Y"/>
             <ConfirmUpdate CNFU="N"/>
             <ConfirmCancel val="N"/>
             <ErrorStrategy val="R"/>
